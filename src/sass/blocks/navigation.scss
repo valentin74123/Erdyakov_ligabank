@@ -1,0 +1,32 @@
+.navigation__list {
+  display: flex;
+}
+
+.navigation__item {
+  margin-right: 25px;
+
+  &:nth-child(2),
+  &:nth-child(4) {
+    margin-right: 23px;  
+  }
+}
+
+.navigation__item-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: $dark-blue;
+
+
+  &--active {
+    color: $blue;
+  }
+
+  &:hover,
+  &:focus {
+    color: rgba($blue, 0.6);
+  }
+
+  &:active {
+    color: $blue;
+  }
+}

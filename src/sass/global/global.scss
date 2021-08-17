@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 1366px;
+  margin: 0 auto;
+  background-color: $white;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.text-margin {
+  margin: 0;
+}
+
+.padding {
+  padding-left: 98px;
+  padding-right: 98px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

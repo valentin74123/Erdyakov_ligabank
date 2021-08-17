@@ -1,0 +1,96 @@
+.footer {
+  background-color: $light-gray;
+}
+
+.footer__wrapper {
+  padding-top: 54px;
+  padding-bottom: 87px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__company-info {
+  max-width: 253px;
+  margin-top: -3px;
+}
+
+.footer__company-info-description {
+  margin-top: 13px;
+}
+
+.footer__company-info-description,
+.footer__phone-info {
+  font-size: 12px;
+  line-height: 140%;
+  color: $dark-gray;
+}
+
+.footer__phone-info {
+  margin-top: 0px;
+
+  &--short {
+    margin-left: 29px;
+  }
+
+  &--phone {
+    margin-left: 33px;
+  }
+}
+
+.footer__message {
+  max-width: 197px;
+}
+
+.footer__number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: $dark-blue;
+
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 16px;
+  }
+
+  &--short {
+    margin-left: 29px;
+
+    &::before {
+      left: -29px;
+      width: 10px;
+      height: 16px;
+      background-image: url("../img/mobile.svg");
+    }
+  }
+
+  &--phone {
+    margin-left: 33px;
+
+    &::before {
+      left: -33px;
+      width: 16px;
+      height: 16px;
+      background-image: url("../img/phone.svg");
+    }
+  }
+
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.footer__phone {
+  max-width: 155px;
+}

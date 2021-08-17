@@ -1,0 +1,57 @@
+.banner {
+  background-color: $blue;
+  background-image: url("../img/bg1.png"), url("../img/bg2.png"), url("../img/bg3.png"), url("../img/bg4.png");
+  background-size: 150px 404px, 150px 269px, 270px 269px, 298px 404px;
+  background-position: left, left 150px bottom, right 298px bottom, right;
+  background-repeat: no-repeat;
+}
+
+.banner__wrapper {
+  padding: 102px 0 130px 269px;
+
+  position: relative;
+}
+
+.banner__card {
+  position: absolute;
+
+  &--black {
+    top: 119px;
+    right: 333px;
+  }
+
+  &--white {
+    top: 61px;
+    right: 224px;
+  }
+}
+
+.banner__title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 63px;
+  color: $light-gray;
+
+  margin-bottom: 8px;
+}
+
+.banner__description {
+  font-size: 22px;
+  line-height: 26px;
+  color: $gray;
+
+  margin-bottom: 49px;
+}
+
+.banner__button {
+  font-size: 18px;
+  line-height: 21px;
+  color: $dark-blue;
+
+  padding: 14px 36px 17px 36px;
+  background-color: $light-gray;
+  border-radius: 4px;
+
+  @include element-brightness;
+}

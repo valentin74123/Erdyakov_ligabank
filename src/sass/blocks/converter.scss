@@ -1,0 +1,42 @@
+.converter {
+  background-color: $white;
+  margin-bottom: 100px;
+}
+
+.converter__wrapper {
+  padding-top: 47px;
+}
+
+.converter__title {
+  font-weight: bold;
+  font-size: 41px;
+  line-height: 140%;
+  color: $dark-blue;
+
+  margin-bottom: 50px;
+  max-width: 480px;
+}
+
+.form-convert__currency-info {
+  display: flex;
+}
+
+.form-convert__money-amount {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: $black;
+
+  padding: 13px 0;
+  text-align: center;
+  width: 390px;
+  margin-right: 15px;
+}
+
+.form-convert__currency {
+  font-size: 30px;
+  line-height: 140%;
+  color: $black;
+
+  width: 120px;
+}

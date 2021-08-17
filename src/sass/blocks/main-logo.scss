@@ -1,0 +1,20 @@
+.main-logo {
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: $dark-blue;
+  margin-left: 37px;
+
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -7px;
+    left: -37px;
+    width: 28px;
+    height: 25px;
+    background-image: url("../img/logo.svg");
+  }
+}

@@ -1,0 +1,10 @@
+@mixin element-brightness {
+  &:hover,
+  &:focus {
+    filter: brightness(0.9);
+  }
+
+  &:active {
+    filter: brightness(0.7);
+  }
+}
