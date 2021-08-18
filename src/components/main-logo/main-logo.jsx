@@ -1,7 +1,7 @@
 import React from 'react';
 
 const MainLogo = () => {
-  return(
+  return (
     <a className="main-logo link" href="/">ЛИГА Банк</a>
   );
 };

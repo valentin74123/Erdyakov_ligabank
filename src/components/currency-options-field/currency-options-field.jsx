@@ -1,4 +1,5 @@
-import PropTypes from "prop-types"
+import React from 'react';
+import PropTypes from "prop-types";
 import {Currencies} from '../../const';
 
 const CurrencyOptionsField = (props) => {
@@ -7,13 +8,13 @@ const CurrencyOptionsField = (props) => {
     fieldId,
     name,
     value
-} = props;
+  } = props;
 
   const currencies = Object.values(Currencies);
 
-  return (    
+  return (
     <>
-      <select 
+      <select
         onChange={changeHandler}
         className="form-convert__currency"
         id={fieldId}
@@ -25,7 +26,7 @@ const CurrencyOptionsField = (props) => {
             <option key={`currency-type-${i}`} value={currencyType}>{currencyType}</option>
           );
         })}
-      </select> 
+      </select>
     </>
   );
 };

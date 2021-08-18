@@ -1,3 +1,5 @@
+import React from 'react';
+
 import CurrencyConverterScreen from "../currency-converter-screen/currency-converter-screen";
 
 const App = () => {

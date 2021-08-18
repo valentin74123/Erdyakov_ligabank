@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 const ConversionHistoryItem = (props) => {
   const {
-    key, 
-    date, 
-    inputAmount, 
-    inputCurrency, 
-    outputAmount, 
+    key,
+    date,
+    inputAmount,
+    inputCurrency,
+    outputAmount,
     outputCurrency
   } = props;
 

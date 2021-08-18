@@ -5,7 +5,7 @@ import {clearHistory} from "../../store/actions";
 import PropTypes from "prop-types";
 
 const ConversionHistory = (props) => {
-  const {history, clear}  = props;
+  const {history, clear} = props;
 
   return (
     <section className="conversion-history">
@@ -23,7 +23,6 @@ const ConversionHistory = (props) => {
             />
           ))}
         </ul>
-        
         {history.length > 0 && (
           <button className="conversion-history__button" onClick={clear}>Очистить историю</button>
         )}

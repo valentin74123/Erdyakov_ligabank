@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const ConvertNumberInput = (props) => {
@@ -9,12 +10,12 @@ const ConvertNumberInput = (props) => {
   } = props;
 
   return (
-    <input 
-      onChange={changeHandler} 
-      className="form-convert__money-amount" 
-      type="number" 
-      id={fieldId} 
-      name={inputName} 
+    <input
+      onChange={changeHandler}
+      className="form-convert__money-amount"
+      type="number"
+      id={fieldId}
+      name={inputName}
       value={value}
       placeholder="0"
     />
