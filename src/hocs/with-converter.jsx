@@ -1,13 +1,13 @@
-import {connect} from "react-redux";
-import {addConversion, changeDate} from "../store/actions";
-import moment from "moment";
 import React from "react";
-import DatePicker from "react-datepicker";
+import PropTypes from "prop-types";
+import moment from "moment";
+import {connect} from "react-redux";
 import {loadExchangeRate} from "../store/api-actions";
+import {addConversion, changeDate} from "../store/actions";
+import DatePicker from "react-datepicker";
 import "../../node_modules/react-datepicker/dist/react-datepicker.css";
 import {FormFields, Currencies, FLOAT_COEFFICIENT} from "../const";
 import Calendar from "../components/calendar/calendar";
-import PropTypes from "prop-types";
 
 export const withConverter = (Component) => {
   class WithCurrencyConverter extends React.PureComponent {

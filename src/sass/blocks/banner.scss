@@ -27,7 +27,7 @@
 }
 
 .banner__title {
-  font-family: "Roboto";
+  font-family: "Roboto bold", "Arial", sans-serif;
   font-weight: bold;
   font-size: 54px;
   line-height: 63px;
@@ -45,6 +45,8 @@
 }
 
 .banner__button {
+  font-family: "Roboto medium", "Arial", sans-serif;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   color: $dark-blue;
