@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "eslint": "eslint --ext .jsx --ext .js src/",
-    "test": "npm run eslint",
+    "stylelint": "stylelint \"src/sass/**/*.scss\" --syntax scss",
+    "test": "npm run eslint && npm run stylelint",
     "build": "webpack --mode production",
     "start": "webpack serve --open"
   },
@@ -12,6 +13,8 @@
     "eslint": "^7.32.0",
     "eslint-config-htmlacademy": "2.1.0",
     "node-sass": "^4.0.0",
+    "stylelint": "13.12.0",
+    "stylelint-config-htmlacademy": "0.1.4",
     "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.23.0",

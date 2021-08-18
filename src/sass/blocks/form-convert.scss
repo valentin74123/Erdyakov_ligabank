@@ -53,7 +53,7 @@
     right: 17px;
     width: 18px;
     height: 10px;
-    background-image: url("../img/dropdown.svg"); 
+    background-image: url("../img/dropdown.svg");
   }
 }
 
@@ -72,7 +72,6 @@
   font-size: 24px;
   line-height: 140%;
   color: $black;
-  
   padding: 13px 0;
   text-align: center;
   width: 390px;
@@ -85,11 +84,10 @@
   font-size: 30px;
   line-height: 140%;
   color: $black;
-  
-	width: 120px;
+  width: 120px;
   appearance: none;
   padding-left: 18px;
-  padding-right: 17px;  
+  padding-right: 17px;
 }
 
 .form-convert__inputs {
@@ -102,7 +100,6 @@
   font-size: 24px;
   line-height: 140%;
   color: $black;
-
   width: 390px;
   padding: 14px 60px 10px 0;
   border: 1px solid $dark-blue;
@@ -111,9 +108,9 @@
   background-color: $white;
 
   @include element-brightness;
-    
-  position:relative;
-  
+
+  position: relative;
+
   &::before {
     position: absolute;
     content: "";
@@ -131,7 +128,6 @@
   font-size: 18px;
   line-height: 140%;
   color: $light-gray;
-
   padding: 19px 0 14px 0;
   background-color: $blue;
   width: 382px;
